@@ -1,0 +1,31 @@
+1-MissPW-Monika-Tarkowska-20-10/21-strzelectwo
+2-MisterPW-Piotrek-Kornacki-22-100/22-kornel
+3-Dzielnicowy--Rybicki-40-5
+4-Dom pogrzebowy-"Radość"-0,1
+5-Dom pogrzebowy-"Game over"-0,15
+6-Dom pogrzebowy-"Export to heaven"-0,01
+7-Dom pogrzebowy-"Sleep time"-0,21
+11-Dzielnicowy-Piotr-Antolak-30-0
+12-Dzielnicowy-Adam--25-0
+13-MisterPW-Kamil-Mońko-23-100/23-mameja
+14-MissPW-Anna-Helupa-26-10/22-chemia
+15-MisterPW-Krzysztof-Baczyński-21-100/24-poeta
+16-MisterPW-Robert-Lewandowski-22-100/25-gała
+17-Dom pogrzebowy-"Śmiech na sali"-0,11
+18-Dom pogrzebowy-"Cisza jak ta"-0,13
+19-Dzielnicowy-Grzegorz-Rybicki-50-39
+20-MisterPW-Maciek-Zabłocki-22-100/26-mydło
+21-MissPW-Katarzyna-Politowska-22-10/23-programowanie
+23-MisterPW-Kazimierz-Atrakcyjny-24-100/27-kazik
+22-MissPW-Natalia-Jantar-22-10/24-Śpiew
+24-MisterPW-Rafał-Riedel-25-100/28-whiskey
+25-MisterPW-Marian-Koniuszko-30-100/29-taxi
+26-MissPW-Halina-Kalinowska-24-100/29-czytelnictwo
+27-MisterPW-Roman-Bratni-25-100/30-chudy
+28-Dom pogrzebowy-"Kostucha & Co."-0,17
+29-MissPW-Regina-Zdanowska-21-100/30-podróże, te małe i te duże
+30-MissPW-Kamila-Woźniak-24-100/31-lotnictwo
+8-Dom pogrzebowy-"Dobra nowina"-0,21
+31-MissPW-Paulina-Piwońska-22-100/32-survival
+9-Dom pogrzebowy-"Było, minęło"-0,21
+10-Dom pogrzebowy-"Grobokop"-0,21
