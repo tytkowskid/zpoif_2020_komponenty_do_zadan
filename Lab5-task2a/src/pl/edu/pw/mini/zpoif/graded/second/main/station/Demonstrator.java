@@ -1,9 +1,11 @@
 package pl.edu.pw.mini.zpoif.graded.second.main.station;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
-import pl.edu.pw.mini.zpoif.graded.second.main.Interrogated;
+import pl.edu.pw.mini.zpoif.graded.second.main.inerrogated.Interrogated;
 
 public class Demonstrator {
 
@@ -14,9 +16,42 @@ public class Demonstrator {
 	private List<String> pseudonyms = Arrays.asList("Halo", "Ogrodnik", "Halina", "Kapo", "Macho");
 
 	public static void main(String[] args) {
+		Demonstrator demonstrator = new Demonstrator();
+		Demonstrator.ListGenerator igen = demonstrator.new ListGenerator();
 		PoliceStation policeStation;//Tutaj nalezy zainicjowac stworzona podklase
-		List<Interrogated> interrogatedPeople;//Tutaj nalezy zainicjowac kolekcje za pomoca klasy opisanej w zadaniu
+		List<Interrogated> list = igen.gen();//Tutaj nalezy zainicjowac kolekcje za pomoca klasy opisanej w zadaniu
 		//policeStation.reception(interrogatedPeople);//Odkomentowac, gdy komponenty zostana zainicjalizowane
+		new Interrogated.Suspect("Danel","dupa").interrogateMe();
+		System.out.println(list);
 	}
+
+	private class ListGenerator{
+
+		private String randomName(){
+			Random random = new Random();
+			return Demonstrator.this.names.get(random.nextInt(names.size()));
+		}
+		private String randomSurname(){
+			Random random = new Random();
+			return Demonstrator.this.surnames.get(random.nextInt(surnames.size()));
+		}
+		private String randomNickname(){
+			Random random = new Random();
+			return Demonstrator.this.pseudonyms.get(random.nextInt(surnames.size()));
+		}
+
+		public List<Interrogated> gen(){
+			List<Interrogated> list = new ArrayList<>();
+			for(int i = 0; i < numberOfInterrogatedPeople; i++){
+				list.add(new Interrogated.Suspect(randomName(),randomSurname()));
+				list.add(new Interrogated.Witness(randomName(),randomSurname()));
+				list.add(new Interrogated.SecretAgent(randomNickname()));
+			}
+			return list;
+		}
+
+	}
+
+
 
 }

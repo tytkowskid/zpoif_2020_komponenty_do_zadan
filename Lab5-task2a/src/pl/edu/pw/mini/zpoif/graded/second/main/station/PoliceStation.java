@@ -2,7 +2,7 @@ package pl.edu.pw.mini.zpoif.graded.second.main.station;
 
 import java.util.List;
 
-import pl.edu.pw.mini.zpoif.graded.second.main.Interrogated;
+import pl.edu.pw.mini.zpoif.graded.second.main.inerrogated.Interrogated;
 import pl.edu.pw.mini.zpoif.graded.second.main.inerrogated.Investigator;
 
 public abstract class PoliceStation {
