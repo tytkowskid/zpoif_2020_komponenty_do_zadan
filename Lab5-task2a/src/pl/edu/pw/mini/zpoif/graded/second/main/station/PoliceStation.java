@@ -3,7 +3,7 @@ package pl.edu.pw.mini.zpoif.graded.second.main.station;
 import java.util.List;
 
 import pl.edu.pw.mini.zpoif.graded.second.main.inerrogated.Interrogated;
-import pl.edu.pw.mini.zpoif.graded.second.main.inerrogated.Investigator;
+import pl.edu.pw.mini.zpoif.graded.second.main.investigator.Investigator;
 
 public abstract class PoliceStation {
 
@@ -13,6 +13,15 @@ public abstract class PoliceStation {
 	protected interface Summaryable {
 		public abstract int getNumberOfInterrogatedPeople();
 	}
+
+	public class Policeman extends Investigator {
+		@Override
+		public void interrogate(Interrogated interrogated) {
+			System.out.printf("Mamy %d minut", interrogationTime);
+			super.interrogate(interrogated);
+		}
+	}
+
 
 	protected abstract void handleInterrogatedPeople(List<Interrogated> interrogators);
 	protected abstract void interrogationRoom1(Interrogated interrogated, Investigator investigator);

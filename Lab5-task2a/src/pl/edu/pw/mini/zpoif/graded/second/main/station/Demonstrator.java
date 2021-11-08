@@ -23,6 +23,7 @@ public class Demonstrator {
 		//policeStation.reception(interrogatedPeople);//Odkomentowac, gdy komponenty zostana zainicjalizowane
 		new Interrogated.Suspect("Danel","dupa").interrogateMe();
 		System.out.println(list);
+
 	}
 
 	private class ListGenerator{
